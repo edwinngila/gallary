@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+}
+#navbar{
+    height:502px;
+    background-image: url(/img/pexels-photo-12106763.jpeg);
+    background-repeat: no-repeat;
+}
+#top{
+    color: white;
+}
+#item{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+ul li{
+    padding-left: 20px;
+}
+.search-bar{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 9px;
+    padding-top: 5px;
+}
+::placeholder{
+    color: rgb(180, 178, 178);
+    font-weight: 600;
+    font-size: 20px;
+}
+#link{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+}
+.treading{
+    margin-top: 10px;
+}
+.tools{
+    list-style: none;
+    background-color: white;
+    color: black;
+    height: 250px;
+    border-radius: 19px;
+    padding: 20px;
+    position: absolute;
+    display: none;
+   
+}
+.tools li{
+    margin-top: 10px;
+}
+.show{
+    display: block;
+}
+#links2{
+ font-size: 20px;
+ font-weight: 500;
+ border-radius: 30px;
+}
+.img{
+    width: 383px;
+}
+#navigation2{
+    display: none;
+}
+.search-bar2{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(236, 235, 235);
+    border-radius: 9px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.grid1{
+    margin-top: 30px;
+    margin-left:60px;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 10px;
+    grid-template-columns: 200px,200px,200px;
+    grid-template-rows:minmax(300px,auto);
+    grid-template-areas: 'img1 img2 img3'
+                         'img12 img2 img3'
+                         'img6 img7 img5'
+                         'img6 img7 img8'
+                         'img9 img11 img10'
+                         'img9 img4 img10 ';   
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+.img11{
+    grid-area: img11;
+}
+.img12{
+    grid-area: img12;
+}
+.img{
+    width: 400px;
+}
