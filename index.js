@@ -17,3 +17,16 @@ function active(){
    link.style.color="white";
    console.log(document.getElementsByClassName("link1").href);
 }
+//***************************************************************************
+//navigation BAR
+function secondNav(){
+    if(window.scrollY>=508){
+        document.querySelector("#navigation2").classList.remove("galleryNav");
+        document.querySelector("#navigation2").classList.add("fixed-top");
+    }
+    else if(window.scrollY<=508){
+        document.querySelector("#navigation2").classList.add("galleryNav");
+        document.querySelector("#navigation2").classList.remove("fixed-top");
+    }
+}
+window.addEventListener("scroll",secondNav)
